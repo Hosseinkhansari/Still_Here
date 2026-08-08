@@ -170,3 +170,61 @@ a:hover {
     text-align: center;
     margin-top: 70px;
 }
+
+@media (max-width: 600px) {
+
+    .poster {
+        height: 500px;
+        background-position: center;
+    }
+
+    .quote_div {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .quote_box {
+        width: 80%;
+        height: auto;
+        min-height: 120px;
+    }
+
+    img {
+        width: 85%;
+        height: auto;
+        display: block;
+        margin: 15px auto;
+    }
+
+    .sound_div {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .sound_box {
+        width: 85%;
+        height: auto;
+        min-height: 150px;
+    }
+
+    .edits_div {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .edits_box {
+        width: 85%;
+        height: auto;
+    }
+
+    .edits_box video {
+        width: 100%;
+        height: auto;
+    }
+}
